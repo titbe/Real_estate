@@ -7,7 +7,7 @@ export default function Filters(){
                 <Text >Rent or Buy</Text>
                 <Text>Buy</Text>
             </View>
-            {/* <Text>─────────────────────────────────────</Text> */}
+            {/* <Text >─────────────────────────────────────</Text> */}
 
             <View style={styles.container}>
                 <Text>Square feet</Text>
@@ -52,8 +52,10 @@ const styles = StyleSheet.create({
         marginTop: 30,
         marginHorizontal: 10,
         flexDirection:'row',
-        justifyContent:'space-between'
-
+        justifyContent:'space-between',
+        borderBottomWidth:1,
+        padding:12,
+        borderBottomColor:'#cccc'
     },
     text:{
         flex:1,
